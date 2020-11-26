@@ -1,0 +1,12 @@
+print("Tip Calculator")
+print("total bill")
+x = input()
+print("amount of people")
+y = input()
+print("percent tip")
+z = input()
+x = int(x)
+y = int(y)
+z = int(z)
+total = (x+(x*(z/100)))/y
+print('Each person should pay ' + str(total))
