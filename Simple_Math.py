@@ -1,7 +1,4 @@
-def additup(number):
-    total = 0
-    for num in range(number+1):
-        total = num + total
-    print(total)
-
-additup(100)
+def stutter(word):
+	new_word = list(word)
+	print(((str(new_word[0]+new_word[1])+' ... ')*2)+word+'?')
+stutter('increasing')
