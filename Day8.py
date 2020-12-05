@@ -1,6 +1,12 @@
-import math
-def paint(height, length):
-    cans = math.ceil((height*length)/5)
-    print(cans)
 
-paint(length=9,height=3)
+def prime(number):
+    y = False
+    for x in range(2,number):
+        if number%x == 0:
+            y = True
+    if y == True:
+        print('Not a Prime')
+    else:
+        print('Prime')
+
+
